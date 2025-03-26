@@ -55,8 +55,8 @@ const getDesign = (currentCard) => {
 
     const linkShopCategory = document.getElementById('linkShopCategory');
     const linkShopCard = document.getElementById('linkShopCard');
-    linkShopCategory.href = "./home.html";
-    linkShopCard.href = "./home.html";
+    linkShopCategory.href = "./index.html";
+    linkShopCard.href = "./index.html";
     linkShopCategory.innerHTML = category;
     linkShopCard.innerHTML = name;
 
